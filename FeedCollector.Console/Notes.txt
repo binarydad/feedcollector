@@ -1,0 +1,4 @@
+﻿Run program
+Define list of feeds
+Create an instance of a collector per feed
+Each collector instance defines one or more handlers that will process the URLs accordingly

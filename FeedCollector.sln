@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20617.1 PREVIEW
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeedCollector.Console", "FeedCollector.Console\FeedCollector.Console.csproj", "{F85402E7-DC3E-4B3D-96F1-05B7A1754FFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeedCollector.Core", "FeedCollector.Core\FeedCollector.Core.csproj", "{FCE0B168-0C49-4784-8E59-DE1C7B64271C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssCollectorService", "FeedCollector.Services.Collectors.RssCollector\RssCollectorService.csproj", "{F3ACC967-32AE-4058-905A-A689F6EAFC94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDownloadHandler", "FeedCollector.Services.Handlers.FileDownloadHandler\FileDownloadHandler.csproj", "{4F5D60DE-7570-43C4-851C-B937F1D566FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{17A8306B-E0CA-4D10-BE97-2EA48DDAADCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Collectors", "Collectors", "{EAF659D2-C897-4659-AFB4-3B80DE5B5DB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Handlers", "Handlers", "{F4566047-F5C7-49DA-B703-A90A5EA8D025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailReportHandler", "EmailReportHandler\EmailReportHandler.csproj", "{41A0CD3B-D573-4F42-A80B-8C9B3FCA8384}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F85402E7-DC3E-4B3D-96F1-05B7A1754FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F85402E7-DC3E-4B3D-96F1-05B7A1754FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F85402E7-DC3E-4B3D-96F1-05B7A1754FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F85402E7-DC3E-4B3D-96F1-05B7A1754FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCE0B168-0C49-4784-8E59-DE1C7B64271C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE0B168-0C49-4784-8E59-DE1C7B64271C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCE0B168-0C49-4784-8E59-DE1C7B64271C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCE0B168-0C49-4784-8E59-DE1C7B64271C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3ACC967-32AE-4058-905A-A689F6EAFC94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3ACC967-32AE-4058-905A-A689F6EAFC94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3ACC967-32AE-4058-905A-A689F6EAFC94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3ACC967-32AE-4058-905A-A689F6EAFC94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F5D60DE-7570-43C4-851C-B937F1D566FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5D60DE-7570-43C4-851C-B937F1D566FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5D60DE-7570-43C4-851C-B937F1D566FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5D60DE-7570-43C4-851C-B937F1D566FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41A0CD3B-D573-4F42-A80B-8C9B3FCA8384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41A0CD3B-D573-4F42-A80B-8C9B3FCA8384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41A0CD3B-D573-4F42-A80B-8C9B3FCA8384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41A0CD3B-D573-4F42-A80B-8C9B3FCA8384}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4566047-F5C7-49DA-B703-A90A5EA8D025} = {17A8306B-E0CA-4D10-BE97-2EA48DDAADCA}
+		{EAF659D2-C897-4659-AFB4-3B80DE5B5DB2} = {17A8306B-E0CA-4D10-BE97-2EA48DDAADCA}
+		{4F5D60DE-7570-43C4-851C-B937F1D566FA} = {F4566047-F5C7-49DA-B703-A90A5EA8D025}
+		{41A0CD3B-D573-4F42-A80B-8C9B3FCA8384} = {F4566047-F5C7-49DA-B703-A90A5EA8D025}
+		{F3ACC967-32AE-4058-905A-A689F6EAFC94} = {EAF659D2-C897-4659-AFB4-3B80DE5B5DB2}
+	EndGlobalSection
+EndGlobal
