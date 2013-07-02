@@ -1,7 +1,5 @@
 ﻿using FeedCollector.Core.Models;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace FeedCollector.Core.Services
 {
